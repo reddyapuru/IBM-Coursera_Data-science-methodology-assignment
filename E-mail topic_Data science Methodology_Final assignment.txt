@@ -1,0 +1,14 @@
+I have chosen as topic for this task the application of data science in the field of e-mails. The reason behind this choice is that it is related with my communication with vendors, clients, management and internal team members.
+
+You are required to:
+1) Describe the problem, related to the topic you selected.
+2) Phrase the problem as a question to be answered using data
+For example, using the food recipes use case discussed in the labs, the question that we defined was, "Can we automatically determine the cuisine of a given dish based on its ingredients?".
+So the main problem for knowing clients is that they have to create a model to know to who they can provide them. Certain clients will not be feasible as they do not have the economic strength to back up this service.
+So our question would be " Can we automatically determine if a client is suitable for our products and has a valid e-mail ID?
+You can always refer to the labs as a reference with describing how you would complete each stage for your problem.
+ 1: Analytic Approach: As the problem requires a yes/no answer we will use a classification model.
+2: Data Requirements: To create the classification model we will require information regarding the e-mails which is internal or outside the organization. This info should include personal data of the e-mail ID and should include the ones that are needed as well as the ones that are blacklisted/spam who have violated the organization rules.
+3: Data Collection: We would use techniques like descriptive statistics and data evaluation should be implemented in this phase to make sure that we have useful data for our model.
+4: Data Understanding and Preparation: In this step we need to evaluate the different variables of our data in order to understand it better. For example we would calculate univariate statistics, such as mean or median and the correlation between variables. So we need to evaluate the quality of the data. In the data preparation phase we have to prepare the data in an specific way depending on the model.
+5: Modeling and Evaluation: Lastly we create a classification model, evaluate the outcome and perform the corresponding changes until we have a suitable model.
